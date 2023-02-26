@@ -1,0 +1,60 @@
+.box.grid.recipes{
+    margin-bottom:40px;
+    padding-bottom:30px;
+    text-align:center;
+    border:1px solid #dedede
+}
+.box.grid.recipes .by{
+    padding:30px 45px;
+    text-align:left;
+    color:#fff;
+    background-color:#222;
+    font-size: 18px;
+}
+.box.grid.recipes .tag,.box.grid.recipes h2,.box.grid.recipes p{
+    padding-right:15px;
+    padding-left:15px
+}
+.box.grid.recipes h2{
+    font-size:1.3rem;
+    font-weight:700;
+    text-transform:capitalize
+}
+.box.grid.recipes h2 a{
+    color:#333
+}
+.box.grid.recipes img{
+    width:100%;
+    margin-bottom:30px
+}
+.box.grid.recipes .tag a{
+    display:inline-block;
+    padding:10px 20px;
+    color:#fff;
+    border:1px solid #222;
+    border-radius:3px;
+    background:#222;
+    transition: all 0.3s ease;
+    margin: 0 3px 6px 0;
+}
+.box.grid.recipes .tag a:hover{
+    text-decoration:none;
+    background-color:#f8f8f8;
+    color:#222;
+    transition: all 0.3s ease;
+}
+.box.list.recipes{
+    margin-top:0;
+    margin-bottom:30px;
+    padding-bottom:20px;
+    border:1px solid #dedede;
+    background-color:#fff;
+    box-shadow:0 6px 15px rgba(36,37,38,.08)
+}
+
+.box.list.recipes img{
+    float:left;
+    width:100px;
+    height:100px;
+    margin-left:20px
+}
